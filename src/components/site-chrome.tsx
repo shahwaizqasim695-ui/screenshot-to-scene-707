@@ -42,7 +42,7 @@ export function SiteNav() {
               {l.label}
             </Link>
           ))}
-          <Link to="/#the-impossible-client" className="btn-primary !px-5 !py-2.5 text-[0.65rem]">
+          <Link to="/" hash="the-impossible-client" className="btn-primary !px-5 !py-2.5 text-[0.65rem]">
             <BookOpen className="h-3.5 w-3.5" />
             The Novel
           </Link>
@@ -70,7 +70,7 @@ export function SiteNav() {
               {l.label}
             </Link>
           ))}
-          <Link to="/#the-impossible-client" className="btn-primary mt-2">
+          <Link to="/" hash="the-impossible-client" className="btn-primary mt-2">
             The Novel
           </Link>
         </nav>
